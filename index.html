@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+    <title>Weather App</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" class="search-bar" placeholder="Search">
+        <button >
+          <i class="fas fa-search" ></i>
+        </button>
+      </div>
+      <div class="weather loading">
+        <h2 class="city">Weather in Kolkata</h2>
+        <h1 class="temp">51°C</h1>
+        <div class="flex">
+          <img src="https://openweathermap.org/img/wn/01d.png" alt="" class="icon"/>
+          <div class="description">Cloudy</div>
+        </div>
+
+        <div class="humidity">Humidity: 60%</div>
+        <div class="wind">Wind Speed: 6.2 km/h</div>
+      </div>
+    </div>
+    <script src="./script.js" charset="utf-8"></script>
+  </body>
+</html>
