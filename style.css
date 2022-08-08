@@ -7,6 +7,9 @@ body{
   background: #222;
   font-family: 'Open Sans', sans-serif;
   background-image: url('https://source.unsplash.com/random/1920x1080/?wallpaper,landscape');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
   font-size: 120%;
 }
 
